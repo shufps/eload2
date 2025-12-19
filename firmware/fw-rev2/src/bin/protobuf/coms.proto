@@ -1,0 +1,35 @@
+// Filename: coms.proto
+
+syntax = "proto3";
+
+message QRequest {
+    int32 id = 1;
+    int32 op = 2;
+    bytes data = 3;
+}
+
+message QResponse {
+    int32 id = 1;
+    int32 error = 2;
+    bytes data = 3;
+}
+
+message QControl {
+    int32 sdn = 1;
+    int32 pwm = 2;
+    int32 dac0 = 3;
+    int32 dac1 = 4;
+    int32 dac2 = 5;
+    int32 dac3 = 6;
+}
+
+message QState {
+    int32 ch0 = 1;
+    int32 ch1 = 2;
+    int32 ch2 = 3;
+    int32 ch3 = 4;
+    int32 cal = 5;
+    int32 v = 6;
+    int32 temp = 7;
+    int32 sdn = 8;
+}

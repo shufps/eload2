@@ -1,0 +1,13 @@
+fan_speed: 0.1
+serial_port: "/dev/ttyACM0"
+
+influx:
+  enabled: true
+  host: localhost
+  port: 8086
+  token: f37fh783hf8hq
+  org: eload
+  bucket: eload
+  timezone: Europe/Berlin
+
+
