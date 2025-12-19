@@ -9212,7 +9212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 147.32 75.565 0)
 			(effects
 				(font
