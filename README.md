@@ -5,6 +5,10 @@
 
 # eload2 (Load v2)
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/509d11a5-d444-4df1-8f3a-e6a2a1d3adae" />
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/fe027fa6-4e62-4210-81a0-b0daeddadc44" />
+
 
 A compact, over-engineered **multi-channel electronic load** for **low-voltage / high-current** testing — built because nothing affordable exists that does *0–1.5V @ ~100A* properly.
 
