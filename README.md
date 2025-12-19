@@ -48,6 +48,22 @@ Commercial options in this niche are either impractical or unreasonably expensiv
 - Bring-up: ✅
 - Verified load test: **12V @ 10A (120W) for ~15 min → ~55°C board temperature** (with the big cooler)
 
+## Errata
+
+- Current setting is a little bit off. For example 11.5A needs to be set for 10.0A current.
+
+## Minimalistic Web UI
+
+There is a minimalistic web UI.
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/77e32ae6-fa66-4057-a8ec-0efb4c8a2999" />
+
+It can be run using `streamlit`:
+```bash
+streamlit run eload_ui.py
+```
+
+
 ## Documentation
 
 https://www.mikrocontroller.net/topic/563073
