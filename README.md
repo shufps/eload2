@@ -83,6 +83,4 @@ This is a **high current** design.
 
 CERN-OHL-S: https://ohwr.org/cern_ohl_s_v2.pdf
 
-## Credits
 
-Designed and built by @shufp.
