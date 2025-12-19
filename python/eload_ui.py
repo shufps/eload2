@@ -100,10 +100,13 @@ def main():
             st.error(f"State read failed: {e}")
             st.stop()
 
+        amps = state.get('ch0', 0.0) + state.get('ch1', 0.0) + state.get('ch2', 0.0) + state.get('ch3', 0.0)
+        volts = state.get('v', 0.0)
+
         # Metrics
         m1, m2, m3, m4 = st.columns(4)
         m1.metric("V", f"{state.get('v', 0.0):.3f}")
-        m2.metric("P", f"{state.get('p', 0.0):.2f} W")
+        m2.metric("P", f"{volts * amps:.2f} W")
         m3.metric("Temp", f"{state.get('temp', 0.0):.2f} °C")
         m4.metric("SDN", "TRUE" if state.get("sdn") else "FALSE")
 
