@@ -56,7 +56,8 @@ Commercial options in this niche are either impractical or unreasonably expensiv
 
 There is a minimalistic web UI.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/77e32ae6-fa66-4057-a8ec-0efb4c8a2999" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/a00e50e5-0680-4788-b857-651a9813dae7" />
+
 
 It can be run using `streamlit`:
 ```bash
