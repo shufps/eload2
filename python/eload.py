@@ -129,9 +129,10 @@ class ELoad:
         r1 = 31600.0 # 31.6k
         r2 = 1000.0 # 1k
         num_parallel = 4.0 # 4 mosfets
+        correct = 1.136363
 
         voltage = current * (r1 + r2) / r2 * r_sense
-        dac_value = (int(voltage / 3.3 * 65536.0 / num_parallel)) & 0xffff
+        dac_value = (int(voltage / 3.3 * 65536.0 / num_parallel * correct)) & 0xffff
 
         logging.info(f"current: {current}, voltage_millis: {voltage}, dac_value: {dac_value}");
         return dac_value
